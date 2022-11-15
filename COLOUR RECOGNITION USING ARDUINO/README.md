@@ -1,3 +1,3 @@
 # circuit
-![CIRCUIT.jpg](CIRCUIT.jpg)
+![CIRCUIT.jpg](CIRCUIT.png)
 
