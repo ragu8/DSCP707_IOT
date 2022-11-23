@@ -1,19 +1,21 @@
 
-int sensor = A3;void setup() {
-
+int sensor = A3;
+void setup() 
+{
   pinMode(sensor, INPUT);
   Serial.begin(9600);
-}void loop() {
+}
+void loop() 
+{
   int sensorval = analogRead(sensor);
   Serial.println(sensorval);
-  
-  if (sensorval > 234) {
-
+  if (sensorval > 500) 
+  {
     Serial.println(" Some Motion");
     Serial.println(sensorval);
   }
-  else {
- 
+  else 
+  {
    Serial.println("NO Motion");
    Serial.println(sensorval);
   }
